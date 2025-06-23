@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+# 🎬 Movieflix
 
-1. Install dependencies
+## 📖 Description
 
-   ```bash
-   npm install
-   ```
+**Movieflix** is a sleek and simple movie discovery app built with **React Native (Expo)**. It allows users to explore trending and latest movies, search for specific films, and view detailed information—all powered by the **TMDB API**.
 
-2. Start the app
+Whether you're looking for tonight’s movie pick or just browsing through the hottest titles, Movieflix makes discovering films a breeze.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ✨ Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* 🆕 **Latest Movies**: Instantly view newly released movies.
+* 📈 **Trending Titles**: Discover what’s popular globally.
+* 🔍 **Search Movies**: Quickly find your favorite films using TMDB search.
+* 🎥 **Movie Details**: Tap into any title to see full details like overview, release date, and poster.
+* 📱 **Bottom Navigation**: Easy access to `Home`, `Search`, `Saved`, and `Profile` tabs.
+* 🌐 **TMDB Integration**: Movie data is fetched directly from [The Movie Database](https://www.themoviedb.org/).
+* 💅 **NativeWind Styling**: Tailwind-like utility styling for fast and clean UI design.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚧 In Progress
 
-When you're ready, run:
+* 💾 **Saved Screen**: A screen to save and view your favorite movies (coming soon).
+* 👤 **Profile Screen**: Customize your user profile (coming soon).
+
+> Want to contribute? Feel free to build these screens and send in a PR! 🎉
+
+---
+
+## 📱 Screens
+
+* **Home**: View latest and trending movies
+* **Search**: Search for any movie
+* **Saved**: \[Coming Soon]
+* **Profile**: \[Coming Soon]
+
+---
+
+## 🚀 Installation
+
+1. **Clone the repository**:
 
 ```bash
-npm run reset-project
+git clone https://github.com/FSfarhaan/Movieflix.git
+cd Movieflix
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. **Install dependencies**:
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. **Add your TMDB API key**:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Create a `.env` file and add:
 
-## Join the community
+```env
+EXPO_PUBLIC_MOVIE_API_KEY=your_tmdb_api_key_here
+```
 
-Join our community of developers creating universal apps.
+4. **Start the Expo app**:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx expo start
+```
+
+---
+
+## 🧩 Tech Stack
+
+* **Framework**: React Native with Expo
+* **Styling**: NativeWind (Tailwind CSS for React Native)
+* **API**: TMDB API for all movie data
+* **Navigation**: React Navigation with bottom tabs
+
+---
+
+## 🤝 Contributing
+
+Want to help build the Saved and Profile screens? Fork this repo and send in your pull request. Contributions are welcome!
+
+---
+
+## 📬 Contact
+
+For questions, suggestions, or contributions:
+
+📧 Email: [farhaan8@gmail.com](mailto:farhaan8d@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/fsfarhaanshaikh)
+
+---
